@@ -12,3 +12,5 @@ Our output is classificational dataset that have a 5 class :0, 1, 2, 3, 4
   b)Classificational Dataset
 
 In the first part of training we have model that give a two part dataset and get a one part output(Classificational output). We use a one loss function in part one that is a CrossEntropyLoss for classificational output. But in part2 we use a two loss function that it has a regressional loss function and classificational loss function. Our loss function in part2 are Huber loss function for regressional output and CrossEntropyLoss for classificational output.
+
+We add a part 2 to our code that can get a all data in many part and train them.
